@@ -35,10 +35,10 @@ print("Label probs:", probs)  # prints: [[0.9927937  0.00421068 0.00299572]]
 
 ## Dataset
 In this project, Two datasets have been used: AGIQA-3K, AIGCIQA2023. This two datasets can be obtained by attach these two links:
-[AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database)
-[AIGCIQA2023](https://github.com/wangjiarui153/AIGCIQA2023)
+[AGIQA-3K](https://github.com/lcysyzxdxc/AGIQA-3k-Database)  
+[AIGCIQA2023](https://github.com/wangjiarui153/AIGCIQA2023)  
 After downloading, just simply put them into file CLIP-IQA will be fine, or you can put them into anywhere and change the path of dataset in ```cfg.yml```. 
 
 ## Usage
-For training, run ```python main.py```.
+For training, run ```python main.py```.  
 For testing, run ```python main.py --mode test```.
