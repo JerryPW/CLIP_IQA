@@ -1,0 +1,21 @@
+exp:
+  exp_name: train
+  exp_dir: logs
+  load_checkpoint: False
+
+data:
+  info_dir: AIGCIQA2023
+
+train:
+  iteration: 20
+  batch: 512
+  lr: 0.005
+  save_freq: 20
+  use_ranking_loss: True
+  ranking_loss_weight: 0.8
+
+IQAmodel:
+  input_dim: 1024
+  output_dim: 1
+  hidden_nums: 1
+  hidden_dim: 128
