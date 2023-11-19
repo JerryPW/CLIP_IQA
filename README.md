@@ -5,7 +5,7 @@ This is the IQA project of class CS3324 in SJTU. And the whole project is implem
 
 ## Approach
 
-![CLIP](CLIP.png)
+![CLIP](CLIP-IQA.png)
 
 
 
