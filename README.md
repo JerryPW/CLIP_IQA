@@ -41,4 +41,6 @@ After downloading, just simply put them into file CLIP-IQA will be fine, or you 
 
 ## Usage
 For training, run ```python main.py```.  
-For testing, run ```python main.py --mode test```.
+For testing, run ```python main.py --mode test```.  
+More changing details can refer to ```cfg.yml```  
+if you write your onw config file, please use ```--cfg``` to change the path when running ```python main.py```.
