@@ -154,25 +154,6 @@ class Trainer(object):
         test_plcc, _ = stats.pearsonr(pred_scores, gt_scores)
         print(f"Test Loss: {average_loss:.4f}  SRCC: {test_srcc}  PLCC: {test_plcc}")
         
-        # import matplotlib.pyplot as plt
-        
-        # slope, intercept = np.polyfit(gt_scores, pred_scores, 1)
-
-        # # 画散点图
-        # plt.scatter(gt_scores, pred_scores, marker='o', label='Scatter Plot')
-
-        # # 画拟合直线
-        # fit_line = slope * np.array(gt_scores) + intercept
-        # plt.plot(gt_scores, fit_line, color='red', label='Fit Line')
-
-        # # 添加标题和标签
-        # plt.title('AIGCIQA2023_correspondence')
-        # plt.xlabel('Ground Truth Scores')
-        # plt.ylabel('Prediction Scores')
-
-        # plt.savefig('AIGCIQA2023_correspondence.png')
-        
-    
     def save_checkpoints(self, epoch):
         print("=> Saving Checkpoint...")
         checkpoint = {
